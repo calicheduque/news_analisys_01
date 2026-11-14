@@ -1,0 +1,12 @@
+cat <<EOT > .gitignore
+# Entornos virtuales y caché de Python
+.venv/
+__pycache__/
+*.pyc
+
+# Archivos de entorno (¡Tus API Keys!)
+.env
+
+# Archivos del sistema
+.DS_Store
+EOT
